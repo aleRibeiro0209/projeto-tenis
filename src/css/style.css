@@ -12,6 +12,17 @@ body {
     align-items: center;
 }
 
+/* Retângulo vermelho */
+.rect-red {
+    z-index: -1;
+    position: absolute;
+    margin-top: -25%;
+    height: 50%;
+    width: 100%;
+    background-color: #CC0627;
+}
+
+/* Cartão com a imagem e as informações */
 .card {
     display: flex;
     width: 650px;
@@ -21,6 +32,7 @@ body {
     background-color: #fff;
 }
 
+/* css da imagem do card */
 .card .img-tenis {
     display: flex;
     justify-content: center;
@@ -28,6 +40,7 @@ body {
     padding: 10px;
 }
 
+/* css das informações do card */
 .card .info-tenis {
     display: flex;
     flex-direction: column;
@@ -35,15 +48,25 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     color: #eee;
+    font-family: 'Poppins', sans-serif;
     padding: 10px;
     gap: 15px;
 }
 
-.rect-red {
-    z-index: -1;
-    position: absolute;
-    margin-top: -25%;
-    height: 50%;
-    width: 100%;
-    background-color: #CC0627;
+.card .info-tenis .nome {
+    font-weight: 600;
+    text-transform: uppercase;
 }
+
+.card .info-tenis .descricao h3{
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.card .info-tenis .descricao p {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: justify;
+}
+
