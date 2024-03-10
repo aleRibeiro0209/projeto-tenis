@@ -148,6 +148,10 @@ body {
         border-bottom-right-radius: 0;
     }
 
+    .card .img-tenis img {
+        width: 90%;
+    }
+
     .card .info-tenis {
         border-top-right-radius: 0;
         border-bottom-left-radius: 15px;
