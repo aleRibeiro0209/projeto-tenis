@@ -143,6 +143,11 @@ body {
         flex-direction: column;
     }
 
+    .card .img-tenis {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
     .card .info-tenis {
         border-top-right-radius: 0;
         border-bottom-left-radius: 15px;
