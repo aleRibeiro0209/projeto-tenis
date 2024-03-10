@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Definindo um tamanho e o comportamento dos elementos filhos do elemento body */
 body {
     width: 100vw;
     height: 100vh;
@@ -12,8 +13,8 @@ body {
     align-items: center;
 }
 
-/* Retângulo vermelho */
-.rect-red {
+/* Retângulo do fundo da página */
+.rect {
     z-index: -1;
     position: absolute;
     height: 50vh;
@@ -31,7 +32,7 @@ body {
     background-color: #fff;
 }
 
-/* css da imagem do card */
+/* estilo da imagem do card */
 .card .img-tenis {
     display: flex;
     justify-content: center;
@@ -39,7 +40,7 @@ body {
     padding: 10px;
 }
 
-/* css das informações do card */
+/* estilo das informações do card */
 .card .info-tenis {
     display: flex;
     flex-direction: column;
@@ -52,11 +53,13 @@ body {
     gap: 25px;
 }
 
+/* estilo da div nome */
 .card .info-tenis .nome {
     font-weight: 600;
     text-transform: uppercase;
 }
 
+/* estilo da div descricao */
 .card .info-tenis .descricao {
     display: flex;
     flex-direction: column;
@@ -76,6 +79,7 @@ body {
     text-align: justify;
 }
 
+/* estilo da div tamanho */
 .card .info-tenis .tamanho {
     display: flex;
     flex-direction: column;
@@ -104,9 +108,10 @@ body {
 .card .info-tenis .tamanho li:hover {
     transform: scale(1.2);
     background-color: #fff;
-    color: #CC0627;
+    color: #000;
 }
 
+/* estilo da div cores */
 .card .info-tenis .cores {
     display: flex;
     flex-direction: column;
@@ -170,18 +175,19 @@ body {
     background-color: #16543B;
 }
 
+/* estilo da div valor-compra */
 .card .info-tenis .valor-compra {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+/* estilo da tag <button> presente na div valor-compra */
 .card .info-tenis .valor-compra .btn-compra {
     background-color: #fff;
     padding: 10px;
     border: 2px solid #fff;
     border-radius: 8px;
-    color: #CC0627;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     text-transform: uppercase;
@@ -189,10 +195,15 @@ body {
     transition: all .24s;
 }
 
+.card .info-tenis .valor-compra .btn-compra h4 {
+    color: #CC0627;
+}
+
 .card .info-tenis .valor-compra .btn-compra:hover {
     transform: scale(1.1);
 }
 
+/* Apartir daqui inicia os estilos para a responsividade do site */
 @media(max-width: 830px) {
     
     .card {
@@ -225,15 +236,3 @@ body {
         width: 100%;
     }
 }
-
-/* Teste, ainda não funcional */
-/* .card .quad-meio {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    rotate: 45deg;
-    top: 50%;
-    left: 47.4%;
-    background-color: #fff;
-    z-index: 999;
-} */
