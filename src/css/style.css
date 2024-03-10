@@ -127,7 +127,7 @@ body {
 
 .card .info-tenis .cores li {
     list-style: none;
-    padding: 10px;
+    padding: 20px;
     border: 2px solid #fff;
     border-radius: 50%;
     transition: all .24s;
@@ -135,8 +135,39 @@ body {
 
 .card .info-tenis .cores li:hover {
     transform: scale(1.2);
-    background-color: #fff;
-    color: #CC0627;
+}
+
+.card .info-tenis .cores li:nth-child(1) {
+    background-color: #CC0627;
+}
+
+.card .info-tenis .cores li:nth-child(2) {
+    background-color: #8CBDDE;
+}
+
+.card .info-tenis .cores li:nth-child(3) {
+    background-color: #E2B479;
+}
+
+.card .info-tenis .cores li:nth-child(4) {
+    background-color: #7A7D82;
+}
+
+.card .info-tenis .cores li:nth-child(5) {
+    /* background-color: #E23F25; */
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(226,63,38,1) 59%);
+}
+
+.card .info-tenis .cores li:nth-child(6) {
+    background-color: #2E2E2E;
+}
+
+.card .info-tenis .cores li:nth-child(7) {
+    background-color: #CEB7A7;
+}
+
+.card .info-tenis .cores li:nth-child(8) {
+    background-color: #16543B;
 }
 
 .card .info-tenis .valor-compra {
