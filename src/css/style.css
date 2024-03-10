@@ -73,6 +73,7 @@ body {
 .card .info-tenis .descricao p {
     font-weight: 400;
     font-size: 12px;
+    line-height: 1.8em;
     text-align: justify;
 }
 
@@ -111,6 +112,7 @@ body {
 .card .info-tenis .valor-compra {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .card .info-tenis .valor-compra .btn-compra {
@@ -128,6 +130,40 @@ body {
 
 .card .info-tenis .valor-compra .btn-compra:hover {
     transform: scale(1.1);
+}
+
+@media(max-width: 825px) {
+    
+    .card {
+        position: absolute;
+        top: 10%;
+        width: 80%;
+        height: 40%;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .card .info-tenis {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+
+    .card .info-tenis .tamanho ul {
+        justify-content: space-around;
+    }
+
+}
+
+@media(max-width: 500px) {
+
+    .card .info-tenis .valor-compra {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card .info-tenis .valor-compra .btn-compra {
+        width: 100%;
+    }
 }
 
 /* Teste, ainda não funcional */
