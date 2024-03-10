@@ -152,6 +152,7 @@ body {
 
     .card .info-tenis .tamanho ul {
         justify-content: space-around;
+        gap: 0px;
         width: 90%;
     }
 
