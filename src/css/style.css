@@ -150,10 +150,6 @@ body {
         border-bottom-left-radius: 15px;
     }
 
-    .card .info-tenis .tamanho ul {
-        width: 90%;
-    }
-
 }
 
 @media(max-width: 500px) {
