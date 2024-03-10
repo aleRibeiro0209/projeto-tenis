@@ -88,10 +88,10 @@ body {
 
 .card .info-tenis .tamanho ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
 
 .card .info-tenis .tamanho li {
@@ -151,8 +151,6 @@ body {
     }
 
     .card .info-tenis .tamanho ul {
-        gap: 0px;
-        justify-content: space-around;
         width: 90%;
     }
 
