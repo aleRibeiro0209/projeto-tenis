@@ -26,7 +26,6 @@ body {
 .card {
     display: flex;
     width: 700px;
-    height: 400px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.20);
     background-color: #fff;
@@ -132,20 +131,14 @@ body {
     transform: scale(1.1);
 }
 
-@media(max-width: 825px) {
+@media(max-width: 830px) {
     
     .card {
         position: absolute;
         top: 10%;
         width: 80%;
-        height: 40%;
         gap: 10px;
         flex-direction: column;
-    }
-
-    .card .img-tenis {
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
     }
 
     .card .img-tenis img {
