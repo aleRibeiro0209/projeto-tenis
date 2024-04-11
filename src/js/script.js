@@ -30,53 +30,56 @@ function trocarCorTenisFundo() {
 
     tenisCorSelecionada.src = `./src/imagens/img-t-${corSelecionada}-jordan.png`
 
-    // Futuramente alterar essa estrutura de decisão elif básica por um switch case
-    if (corSelecionada == "vm") {
-
-        fundoCorSelecionada.style.backgroundColor = cores[0]
-        fundoCardCorSelecionada.style.backgroundColor = cores[0]
-        fonteBtnCorSelecionada.style.color = cores[0]
-
-    } else if (corSelecionada == "az") {
-
-        fundoCorSelecionada.style.backgroundColor = cores[1]
-        fundoCardCorSelecionada.style.backgroundColor = cores[1]
-        fonteBtnCorSelecionada.style.color = cores[1]
-
-    } else if (corSelecionada == "cm") {
-
-        fundoCorSelecionada.style.backgroundColor = cores[2]
-        fundoCardCorSelecionada.style.backgroundColor = cores[2]
-        fonteBtnCorSelecionada.style.color = cores[2]
-
-    } else if (corSelecionada == "cz") {
-
-        fundoCorSelecionada.style.backgroundColor = cores[3]
-        fundoCardCorSelecionada.style.backgroundColor = cores[3]
-        fonteBtnCorSelecionada.style.color = cores[3]
-
-    } else if (corSelecionada == "lj") {
-
-        fundoCorSelecionada.style.backgroundColor = cores[4]
-        fundoCardCorSelecionada.style.backgroundColor = cores[4]
-        fonteBtnCorSelecionada.style.color = cores[4]
-
-    } else if (corSelecionada == "pt") {
-
-        fundoCorSelecionada.style.backgroundColor = cores[5]
-        fundoCardCorSelecionada.style.backgroundColor = cores[5]
-        fonteBtnCorSelecionada.style.color = cores[5]
-
-    } else if (corSelecionada == "rs") {
-
-        fundoCorSelecionada.style.backgroundColor = cores[6]
-        fundoCardCorSelecionada.style.backgroundColor = cores[6]
-        fonteBtnCorSelecionada.style.color = cores[6]
-
-    } else if (corSelecionada == "vd") {
-
-        fundoCorSelecionada.style.backgroundColor = cores[7]
-        fundoCardCorSelecionada.style.backgroundColor = cores[7]
-        fonteBtnCorSelecionada.style.color = cores[7]
+    // Switch case, usado para testar o caso em que a variavel corSelecionada se encontra
+    switch (corSelecionada) {
+ 
+        case "vm":
+            fundoCorSelecionada.style.backgroundColor = cores[0]
+            fundoCardCorSelecionada.style.backgroundColor = cores[0]
+            fonteBtnCorSelecionada.style.color = cores[0]
+            break;
+       
+        case "az":
+            fundoCorSelecionada.style.backgroundColor = cores[1]
+            fundoCardCorSelecionada.style.backgroundColor = cores[1]
+            fonteBtnCorSelecionada.style.color = cores[1]
+            break;
+       
+        case "cm":
+            fundoCorSelecionada.style.backgroundColor = cores[2]
+            fundoCardCorSelecionada.style.backgroundColor = cores[2]
+            fonteBtnCorSelecionada.style.color = cores[2]
+            break;
+ 
+        case "cz":
+            fundoCorSelecionada.style.backgroundColor = cores[3]
+            fundoCardCorSelecionada.style.backgroundColor = cores[3]
+            fonteBtnCorSelecionada.style.color = cores[3]
+            break;
+       
+        case "lj":
+            fundoCorSelecionada.style.backgroundColor = cores[4]
+            fundoCardCorSelecionada.style.backgroundColor = cores[4]
+            fonteBtnCorSelecionada.style.color = cores[4]
+            break;
+ 
+        case "pt":
+            fundoCorSelecionada.style.backgroundColor = cores[5]
+            fundoCardCorSelecionada.style.backgroundColor = cores[5]
+            fonteBtnCorSelecionada.style.color = cores[5]
+            break;
+       
+        case "rs":
+            fundoCorSelecionada.style.backgroundColor = cores[6]
+            fundoCardCorSelecionada.style.backgroundColor = cores[6]
+            fonteBtnCorSelecionada.style.color = cores[6]
+            break;
+ 
+        case "vd":
+            fundoCorSelecionada.style.backgroundColor = cores[7]
+            fundoCardCorSelecionada.style.backgroundColor = cores[7]
+            fonteBtnCorSelecionada.style.color = cores[7]
+            break;
+ 
     }
 }
