@@ -39,7 +39,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    transition: all 1s;
 }
 
 /* estilo das informações do card */
@@ -200,6 +199,7 @@ body {
 
 .card .info-tenis .valor-compra .btn-compra h4 {
     color: #CC0627;
+    transition: all 1s;
 }
 
 .card .info-tenis .valor-compra .btn-compra:hover {
