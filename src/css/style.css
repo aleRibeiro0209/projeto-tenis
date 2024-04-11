@@ -21,6 +21,7 @@ body {
     width: 100vw;
     top: 0%;
     background-color: #CC0627;
+    transition: all 1s;
 }
 
 /* Cartão com a imagem e as informações */
@@ -38,6 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    transition: all 1s;
 }
 
 /* estilo das informações do card */
@@ -51,6 +53,7 @@ body {
     font-family: 'Poppins', sans-serif;
     padding: 20px;
     gap: 25px;
+    transition: all 1s;
 }
 
 /* estilo da div nome */
